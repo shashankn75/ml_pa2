@@ -1,0 +1,9 @@
+#!/bin/sh
+
+touch ./1kbfile.enc
+touch ./10mbfile.enc
+touch ./1mbfile.encn
+python3 aes.py
+python3 rsa.py
+python3 hash.py
+python3 dsa.py
